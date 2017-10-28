@@ -68,7 +68,7 @@ mysql -u root < sql/1.sql
 ...
 [info] Loading project definition from finatra-mysql-seed/project
 [info] Set current project to finatra-mysql-seed(in build file:finatra-mysql-seed/)
-[info] Running com.github.ikhoon.FinatraServerMain
+[info] Running com.example.ktz.FinatraServerMain
 ...
 ```
 

@@ -1,6 +1,6 @@
 package com.github.ikhoon.test
 
-import com.github.ikhoon.FinatraServer
+import com.example.ktz.FinatraServer
 import com.google.inject.Stage
 import com.twitter.finatra.http.EmbeddedHttpServer
 import com.twitter.inject.Test

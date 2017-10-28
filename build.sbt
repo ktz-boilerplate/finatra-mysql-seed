@@ -1,7 +1,7 @@
 import sbt.Keys._
 
 name := """finatra-mysql-seed"""
-organization := "com.github.ikhoon"
+organization := "com.example.ktz"
 
 version := "1.0.0-SNAPSHOT"
 

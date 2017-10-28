@@ -61,7 +61,7 @@ mysql -u root &lt; sql/<span class="hljs-number">1</span>.sql
 ...
 [info] Loading project definition from finatra-mysql-seed/project
 [info] Set current project to finatra-mysql-seed(<span class="hljs-keyword">in</span> build file:finatra-mysql-seed/)
-[info] Running com.github.ikhoon.FinatraServerMain
+[info] Running com.example.ktz.FinatraServerMain
 ...
 </code></pre>
 <h2><a id="Example_Codes_75"></a>Example Codes</h2>
@@ -118,7 +118,7 @@ mysql -u root &lt; sql/<span class="hljs-number">1</span>.sql
 <span class="hljs-comment">// Define repository</span>
 <span class="hljs-keyword">import</span> javax.inject.{ <span class="hljs-type">Inject</span>, <span class="hljs-type">Singleton</span> }
 
-<span class="hljs-keyword">import</span> com.github.ikhoon.modules.<span class="hljs-type">QuillDatabaseModule</span>.<span class="hljs-type">QuillDatabaseSource</span>
+<span class="hljs-keyword">import</span> com.example.ktz.modules.<span class="hljs-type">QuillDatabaseModule</span>.<span class="hljs-type">QuillDatabaseSource</span>
 <span class="hljs-keyword">import</span> com.twitter.util.<span class="hljs-type">Future</span>
 <span class="hljs-keyword">import</span> io.getquill._
 
@@ -159,7 +159,7 @@ mysql -u root &lt; sql/<span class="hljs-number">1</span>.sql
 <span class="hljs-comment">// Define slick table &amp; repository</span>
 <span class="hljs-keyword">import</span> javax.inject.<span class="hljs-type">Inject</span>
 
-<span class="hljs-keyword">import</span> com.github.ikhoon.modules.<span class="hljs-type">SlickDatabaseModule</span>.<span class="hljs-type">SlickDataBaseSource</span>
+<span class="hljs-keyword">import</span> com.example.ktz.modules.<span class="hljs-type">SlickDatabaseModule</span>.<span class="hljs-type">SlickDataBaseSource</span>
 <span class="hljs-keyword">import</span> com.github.tototoshi.slick.<span class="hljs-type">MySQLJodaSupport</span>._
 <span class="hljs-keyword">import</span> org.joda.time.<span class="hljs-type">DateTime</span>
 

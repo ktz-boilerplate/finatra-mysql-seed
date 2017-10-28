@@ -1,7 +1,7 @@
 package com.github.ikhoon.test
 
-import com.github.ikhoon.app.v1.fake.FakeService
-import com.github.ikhoon.modules.{ CustomJacksonModule, HttpClientModules, TypesafeConfigModule }
+import com.example.ktz.app.v1.fake.FakeService
+import com.example.ktz.modules.{ CustomJacksonModule, HttpClientModules, TypesafeConfigModule }
 import com.twitter.inject.IntegrationTest
 import com.twitter.inject.app.TestInjector
 import com.twitter.util.Await
