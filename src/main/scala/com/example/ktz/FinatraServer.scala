@@ -1,5 +1,9 @@
 package com.example.ktz
 
+import com.example.ktz.app.v1.fake.FakeController
+import com.example.ktz.app.v1.ping.PingController
+import com.example.ktz.app.v1.user.UserController
+import com.example.ktz.modules._
 import com.jakehschwartz.finatra.swagger.DocsController
 import com.twitter.finagle.http.{Request, Response}
 import com.twitter.finatra.http.HttpServer

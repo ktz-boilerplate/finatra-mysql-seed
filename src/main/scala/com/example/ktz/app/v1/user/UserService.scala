@@ -5,7 +5,8 @@ import javax.inject.Inject
 import com.example.ktz.persistence.quill.user.QuillUserRepository
 import com.example.ktz.persistence.slick.user.SlickUserRepository
 import com.twitter.util.Future
-import com.github.ikhoon.TwitterFutureOps._
+
+import com.example.ktz.TwitterFutureOps._
 import scala.concurrent.ExecutionContext.Implicits.global
 
 class UserService @Inject() (

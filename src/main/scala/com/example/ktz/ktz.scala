@@ -1,4 +1,4 @@
-package com.example.ktz
+package com.example
 
 package object ktz {
 
